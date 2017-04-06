@@ -773,19 +773,19 @@ const bool Z_MIN_PROBE_ENDSTOP_INVERTING = true; // set to true to invert the lo
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   {80,80,1600,97.0874}  // custom steps per unit for TEVO Tarantula
 #define DEFAULT_AXIS_STEPS_PER_UNIT   {80.44,80.36,1600,96}  // custom steps per unit for Tarantula w/E3D Titan Extruder
 //#define DEFAULT_MAX_FEEDRATE          {300, 300, 5, 25}    // (mm/sec)
-#define DEFAULT_MAX_FEEDRATE          {225, 225, 3, 60}    // (mm/sec) custom for TEVO Tarantula
+#define DEFAULT_MAX_FEEDRATE          {300, 300, 5, 100}    // (mm/sec) custom for TEVO Tarantula
 //#define DEFAULT_MAX_ACCELERATION      {3000,3000,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
-#define DEFAULT_MAX_ACCELERATION      {1000,1000,100,10000}    // Custom for TEVO Tarantula
+#define DEFAULT_MAX_ACCELERATION      {2000,2000,100,10000}    // Custom for TEVO Tarantula
 
 //#define DEFAULT_ACCELERATION          3000    // X, Y, Z and E acceleration in mm/s^2 for printing moves
-#define DEFAULT_ACCELERATION          1000    // Custom for TEVO Tarantula
+#define DEFAULT_ACCELERATION          2000    // Custom for TEVO Tarantula
 #define DEFAULT_RETRACT_ACCELERATION  3000    // E acceleration in mm/s^2 for retracts
 #define DEFAULT_TRAVEL_ACCELERATION   3000    // X, Y, Z acceleration in mm/s^2 for travel (non printing) moves
 
 // The speed change that does not require acceleration (i.e. the software might assume it can be done instantaneously)
 //#define DEFAULT_XYJERK                20.0    // (mm/sec)
-#define DEFAULT_XYJERK                15.0    // (mm/sec) Custom for TEVO Tarantula
-#define DEFAULT_ZJERK                 0.4     // (mm/sec)
+#define DEFAULT_XYJERK                10.0    // (mm/sec) Custom for TEVO Tarantula
+#define DEFAULT_ZJERK                 0.39     // (mm/sec)
 #define DEFAULT_EJERK                 5.0    // (mm/sec)
 
 
